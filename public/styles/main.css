@@ -1,0 +1,37 @@
+/*Aqui ficam todos os códigos responsáveis pela configuração padrão*/
+
+
+:root {
+    --title-color: #322153;
+    --primary-color: #34cb79;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /*Com esse border-box há uma limitação para a expansão externa da caixa, ou seja, ele limita seu temanho*/
+
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background: #f0f0f5;
+    -webkit-font-smoothing: antialiased; /*apresenta a fonte de um jeito mais agradável*/
+}
+
+a { 
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h4, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+/*Box Model - cada elemento recebe o padrão de uma caixa
+Toda caixa tem: largura, altura, comprimento, preenchimentos,
+bordas, cor, fundo, alinhamentos e display (forma como o html enxerga) */
+
